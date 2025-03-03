@@ -12,14 +12,6 @@ public:
             }
         }
 
-        // Printing results inside the function
-        cout << "New length: " << j << endl;
-        cout << "Modified array: ";
-        for (int i = 0; i < j; i++) {
-            cout << nums[i] << " ";
-        }
-        cout << endl;
-
         return j; // The new length of the array
     }
 };
